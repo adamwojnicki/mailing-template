@@ -5,7 +5,7 @@
     <title>Mailing template</title>
   </head>
   <body>
-    <style>
+    <style type="text/css">
       .ExternalClass {
         width: 100%;
       }
@@ -31,6 +31,17 @@
         .email2-col-section__column .feature-img {
           width: 100% !important;
           max-width: 400px !important;
+        }
+      }
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
         }
       }
     </style>
@@ -109,6 +120,7 @@
                           background-color: #50c3af;
                           padding: 10px 30px;
                           border-radius: 32px;
+                          animation: pulse 3s ease-in-out infinite;
                         "
                         href="#"
                         >Get yours now</a
