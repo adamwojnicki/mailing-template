@@ -18,7 +18,17 @@
       }
       @media only screen and (max-width: 600px) {
         #emailContainer {
-          width: 100%;
+          width: 100% !important;
+        }
+        .email3-col-section__column,
+        .email2-col-section__column {
+          display: block !important;
+          width: 100% !important;
+        }
+        .email3-col-section__column img,
+        .email2-col-section__column img {
+          width: 100% !important;
+          max-width: 400px !important;
         }
       }
     </style>
@@ -39,8 +49,8 @@
             border="0"
             cellpadding="20"
             cellspacing="0"
-            width="800"
             id="emailContainer"
+            width="800"
           >
             <tr>
               <td align="center" valign="top">
@@ -50,8 +60,8 @@
                     color: #fff;
                     background-color: #ccc;
                     text-align: center;
+                    width: 100%;
                   "
-                  width="100%"
                 >
                   <tr>
                     <td align="center" valign="top">
@@ -130,7 +140,6 @@
                             <img
                               src="http://placekitten.com/g/180/200"
                               class="columnImage"
-                              width="100%"
                             />
                           </td>
                         </tr>
@@ -179,7 +188,6 @@
                             <img
                               src="http://placekitten.com/g/180/200"
                               class="columnImage"
-                              width="100%"
                             />
                           </td>
                         </tr>
@@ -228,7 +236,6 @@
                             <img
                               src="http://placekitten.com/g/180/200"
                               class="columnImage"
-                              width="100%"
                             />
                           </td>
                         </tr>
@@ -266,7 +273,7 @@
             <tr>
               <td align="center" valign="top">
                 <table
-                  id="email2-col-section"
+                  class="email2-col-section"
                   style="margin: 32px auto"
                   width="100%"
                 >
@@ -288,7 +295,6 @@
                             <img
                               src="http://placekitten.com/g/280/300"
                               class="columnImage"
-                              width="100%"
                             />
                           </td>
                         </tr>
@@ -347,7 +353,6 @@
                             <img
                               src="http://placekitten.com/g/280/300"
                               class="columnImage"
-                              width="100%"
                             />
                           </td>
                         </tr>
