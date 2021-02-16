@@ -11,111 +11,6 @@
         margin: 0;
         padding: 0;
       }
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      .email-header {
-        color: #fff;
-        background: #ccc;
-        text-align: center;
-      }
-      .email-header__headline {
-        font-size: 56px;
-        margin: 32px 16px;
-        text-transform: uppercase;
-      }
-      .email-header__subheadline {
-        font-size: 14px;
-        text-transform: uppercase;
-        margin-bottom: 32px;
-      }
-      .email-header__cta {
-        display: inline-block;
-        font-size: 16px;
-        text-transform: uppercase;
-        margin-bottom: 32px;
-        text-decoration: none;
-        color: #fff;
-        background: green;
-        padding: 10px 30px;
-        border-radius: 32px;
-      }
-
-      .email3-col-section {
-        margin: 32px auto;
-      }
-      .email3-col-section__column {
-        text-align: center;
-      }
-      .email3-col-section.second .email3-col-section__column {
-        text-align: left;
-      }
-      .email3-col-section__column h2 {
-        font-size: 18px;
-        text-transform: uppercase;
-        padding: 18px 0;
-        border-bottom: 1px solid #ccc;
-      }
-      .email3-col-section.second .email3-col-section__column h2 {
-        border-bottom: none;
-      }
-      .email3-col-section__column p {
-        font-size: 14px;
-        line-height: 2.2;
-        margin-top: 24px;
-        margin-bottom: 24px;
-      }
-      .email3-col-section__column a {
-        display: inline-block;
-        text-decoration: none;
-        color: #fff;
-        background: green;
-        padding: 10px 30px;
-        border-radius: 32px;
-      }
-
-      .email2-col-section {
-        margin: 32px auto;
-      }
-      .email2-col-section__column h2 {
-        font-size: 18px;
-        text-transform: uppercase;
-        padding: 18px 0;
-      }
-      .email2-col-section__column p {
-        font-size: 14px;
-        line-height: 2.2;
-        margin-top: 24px;
-        margin-bottom: 24px;
-      }
-      .email2-col-section__column a {
-        display: inline-block;
-        text-decoration: none;
-        color: #fff;
-        background: green;
-        padding: 10px 30px;
-        border-radius: 32px;
-      }
-
-      .email-text-section {
-        margin: 32px auto;
-      }
-      .email-text-section__headline {
-        font-size: 24px;
-        text-transform: uppercase;
-      }
-      .email-text-section__copy {
-        font-size: 18px;
-        margin-bottom: 32px;
-      }
-      .email-text-section__cta {
-        display: inline-block;
-        background-color: #ccc;
-        color: #000;
-        text-decoration: none;
-        padding: 10px 30px;
-        border-radius: 32px;
-      }
     </style>
   </head>
   <body>
@@ -126,6 +21,7 @@
       height="100%"
       width="100%"
       id="bodyTable"
+      style="font-family: Arial, Helvetica, sans-serif"
     >
       <tr>
         <td align="center" valign="top">
@@ -138,22 +34,61 @@
           >
             <tr>
               <td align="center" valign="top">
-                <table class="email-header" width="100%">
+                <table
+                  class="email-header"
+                  style="
+                    color: #fff;
+                    background-color: #ccc;
+                    text-align: center;
+                  "
+                  width="100%"
+                >
                   <tr>
                     <td align="center" valign="top">
-                      <h1 class="email-header__headline">Have a good day</h1>
+                      <h1
+                        class="email-header__headline"
+                        style="
+                          font-size: 56px;
+                          margin: 32px 16px;
+                          text-transform: uppercase;
+                        "
+                      >
+                        Have a good day
+                      </h1>
                     </td>
                   </tr>
                   <tr>
                     <td align="center" valign="top">
-                      <p class="email-header__subheadline">
+                      <p
+                        class="email-header__subheadline"
+                        style="
+                          font-size: 14px;
+                          text-transform: uppercase;
+                          margin-bottom: 32px;
+                        "
+                      >
                         Just for you on Lorem Ipsum
                       </p>
                     </td>
                   </tr>
                   <tr>
                     <td align="center" valign="top">
-                      <a class="email-header__cta" href="#">Get yours now</a>
+                      <a
+                        class="email-header__cta"
+                        style="
+                          display: inline-block;
+                          font-size: 16px;
+                          text-transform: uppercase;
+                          margin-bottom: 32px;
+                          text-decoration: none;
+                          color: #fff;
+                          background-color: green;
+                          padding: 10px 30px;
+                          border-radius: 32px;
+                        "
+                        href="#"
+                        >Get yours now</a
+                      >
                     </td>
                   </tr>
                 </table>
@@ -161,13 +96,18 @@
             </tr>
             <tr>
               <td align="center" valign="top">
-                <table class="email3-col-section" width="100%">
+                <table
+                  class="email3-col-section"
+                  style="margin: 32px auto"
+                  width="100%"
+                >
                   <tr>
                     <td
                       align="center"
                       valign="top"
                       width="33%"
                       class="email3-col-section__column"
+                      style="text-align: center"
                     >
                       <table
                         border="0"
@@ -186,8 +126,24 @@
                         </tr>
                         <tr>
                           <td valign="top" class="leftColumnContent">
-                            <h2>Professionals</h2>
-                            <p>
+                            <h2
+                              style="
+                                font-size: 18px;
+                                text-transform: uppercase;
+                                padding: 18px 0;
+                                border-bottom: 1px solid #ccc;
+                              "
+                            >
+                              Professionals
+                            </h2>
+                            <p
+                              style="
+                                font-size: 14px;
+                                line-height: 2.2;
+                                margin-top: 24px;
+                                margin-bottom: 24px;
+                              "
+                            >
                               Lorem, ipsum dolor sit amet consectetur
                               adipisicing.
                             </p>
@@ -200,6 +156,7 @@
                       valign="top"
                       width="33%"
                       class="email3-col-section__column"
+                      style="text-align: center"
                     >
                       <table
                         border="0"
@@ -218,8 +175,24 @@
                         </tr>
                         <tr>
                           <td valign="top" class="centerColumnContent">
-                            <h2>Amateurs</h2>
-                            <p>
+                            <h2
+                              style="
+                                font-size: 18px;
+                                text-transform: uppercase;
+                                padding: 18px 0;
+                                border-bottom: 1px solid #ccc;
+                              "
+                            >
+                              Amateurs
+                            </h2>
+                            <p
+                              style="
+                                font-size: 14px;
+                                line-height: 2.2;
+                                margin-top: 24px;
+                                margin-bottom: 24px;
+                              "
+                            >
                               Lorem ipsum dolor sit amet consectetur
                               adipisicing.
                             </p>
@@ -232,6 +205,7 @@
                       valign="top"
                       width="33%"
                       class="email3-col-section__column"
+                      style="text-align: center"
                     >
                       <table
                         border="0"
@@ -250,8 +224,24 @@
                         </tr>
                         <tr>
                           <td valign="top" class="rightColumnContent">
-                            <h2>For everyone</h2>
-                            <p>
+                            <h2
+                              style="
+                                font-size: 18px;
+                                text-transform: uppercase;
+                                padding: 18px 0;
+                                border-bottom: 1px solid #ccc;
+                              "
+                            >
+                              For everyone
+                            </h2>
+                            <p
+                              style="
+                                font-size: 14px;
+                                line-height: 2.2;
+                                margin-top: 24px;
+                                margin-bottom: 24px;
+                              "
+                            >
                               Lorem ipsum dolor sit amet consectetur
                               adipisicing.
                             </p>
@@ -265,7 +255,11 @@
             </tr>
             <tr>
               <td align="center" valign="top">
-                <table id="email2colSection" width="100%">
+                <table
+                  id="email2-col-section"
+                  style="margin: 32px auto"
+                  width="100%"
+                >
                   <tr>
                     <td
                       align="center"
@@ -290,12 +284,38 @@
                         </tr>
                         <tr>
                           <td valign="top" class="leftColumnContent">
-                            <h2>Responsive email template</h2>
-                            <p>
+                            <h2
+                              style="
+                                font-size: 18px;
+                                text-transform: uppercase;
+                                padding: 18px 0;
+                              "
+                            >
+                              Responsive email template
+                            </h2>
+                            <p
+                              style="
+                                font-size: 14px;
+                                line-height: 2.2;
+                                margin-top: 24px;
+                                margin-bottom: 24px;
+                              "
+                            >
                               Lorem ipsum dolor sit amet consectetur adipisicing
                               elit. Possimus, laudantium rerum?
                             </p>
-                            <a href="#">Read more</a>
+                            <a
+                              href="#"
+                              style="
+                                display: inline-block;
+                                text-decoration: none;
+                                color: #fff;
+                                background-color: green;
+                                padding: 10px 30px;
+                                border-radius: 32px;
+                              "
+                              >Read more</a
+                            >
                           </td>
                         </tr>
                       </table>
@@ -323,12 +343,38 @@
                         </tr>
                         <tr>
                           <td valign="top" class="rightColumnContent">
-                            <h2>Fully compatible template</h2>
-                            <p>
+                            <h2
+                              style="
+                                font-size: 18px;
+                                text-transform: uppercase;
+                                padding: 18px 0;
+                              "
+                            >
+                              Fully compatible template
+                            </h2>
+                            <p
+                              style="
+                                font-size: 14px;
+                                line-height: 2.2;
+                                margin-top: 24px;
+                                margin-bottom: 24px;
+                              "
+                            >
                               Lorem ipsum dolor sit amet consectetur adipisicing
                               elit. Possimus, laudantium rerum?
                             </p>
-                            <a href="#">Read more</a>
+                            <a
+                              href="#"
+                              style="
+                                display: inline-block;
+                                text-decoration: none;
+                                color: #fff;
+                                background-color: green;
+                                padding: 10px 30px;
+                                border-radius: 32px;
+                              "
+                              >Read more</a
+                            >
                           </td>
                         </tr>
                       </table>
@@ -339,14 +385,21 @@
             </tr>
             <tr>
               <td align="center" valign="top">
-                <table class="email-text-section" cellspacing="20">
+                <table
+                  class="email-text-section"
+                  style="margin: 32px auto"
+                  cellspacing="20"
+                >
                   <tr>
                     <td>
                       <table>
                         <tr>
                           <td>place for logo</td>
                           <td>
-                            <h2 class="email-text-section__headline">
+                            <h2
+                              class="email-text-section__headline"
+                              style="font-size: 24px; text-transform: uppercase"
+                            >
                               Lorem ipsum dolor sit amet.
                             </h2>
                           </td>
@@ -356,14 +409,29 @@
                   </tr>
                   <tr>
                     <td>
-                      <p class="email-text-section__copy">
+                      <p
+                        class="email-text-section__copy"
+                        style="font-size: 18px; margin-bottom: 32px"
+                      >
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Harum corrupti repellat accusamus. Placeat nihil odit,
                         eum molestias quam ullam quis adipisci tempora
                         laboriosam praesentium laborum cupiditate cum minima
                         consectetur iste ex beatae.
                       </p>
-                      <a href="#" class="email-text-section__cta">Read more</a>
+                      <a
+                        href="#"
+                        class="email-text-section__cta"
+                        style="
+                          display: inline-block;
+                          background-color: #ccc;
+                          color: #000;
+                          text-decoration: none;
+                          padding: 10px 30px;
+                          border-radius: 32px;
+                        "
+                        >Read more</a
+                      >
                     </td>
                   </tr>
                 </table>
@@ -378,6 +446,7 @@
                       valign="top"
                       width="33%"
                       class="email3-col-section__column"
+                      style="text-align: left"
                     >
                       <table
                         border="0"
@@ -396,8 +465,23 @@
                         </tr>
                         <tr>
                           <td valign="top" class="leftColumnContent">
-                            <h2>Super fast</h2>
-                            <p>
+                            <h2
+                              style="
+                                font-size: 18px;
+                                text-transform: uppercase;
+                                padding: 18px 0;
+                              "
+                            >
+                              Super fast
+                            </h2>
+                            <p
+                              style="
+                                font-size: 14px;
+                                line-height: 2.2;
+                                margin-top: 24px;
+                                margin-bottom: 24px;
+                              "
+                            >
                               Lorem ipsum dolor sit amet consectetur adipisicing
                               elit.
                             </p>
@@ -411,6 +495,7 @@
                       valign="top"
                       width="33%"
                       class="email3-col-section__column"
+                      style="text-align: left"
                     >
                       <table
                         border="0"
@@ -429,8 +514,23 @@
                         </tr>
                         <tr>
                           <td valign="top" class="centerColumnContent">
-                            <h2>Full compatibility</h2>
-                            <p>
+                            <h2
+                              style="
+                                font-size: 18px;
+                                text-transform: uppercase;
+                                padding: 18px 0;
+                              "
+                            >
+                              Full compatibility
+                            </h2>
+                            <p
+                              style="
+                                font-size: 14px;
+                                line-height: 2.2;
+                                margin-top: 24px;
+                                margin-bottom: 24px;
+                              "
+                            >
                               Lorem ipsum, dolor sit amet consectetur
                               adipisicing elit.
                             </p>
@@ -444,6 +544,7 @@
                       valign="top"
                       width="33%"
                       class="email3-col-section__column"
+                      style="text-align: left"
                     >
                       <table
                         border="0"
@@ -462,8 +563,23 @@
                         </tr>
                         <tr>
                           <td valign="top" class="rightColumnContent">
-                            <h2>Very great modules</h2>
-                            <p>
+                            <h2
+                              style="
+                                font-size: 18px;
+                                text-transform: uppercase;
+                                padding: 18px 0;
+                              "
+                            >
+                              Very great modules
+                            </h2>
+                            <p
+                              style="
+                                font-size: 14px;
+                                line-height: 2.2;
+                                margin-top: 24px;
+                                margin-bottom: 24px;
+                              "
+                            >
                               Lorem ipsum dolor sit, amet consectetur
                               adipisicing elit.
                             </p>
